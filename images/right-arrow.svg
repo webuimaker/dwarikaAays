@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="11px" viewBox="0 0 6 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.7690641,13.8438266 C11.9020864,12.7114958 13.9226925,10.6921231 14.7449442,9.87037329 C14.9114773,9.69676597 14.9692313,9.6255832 14.970087,9.50600495 C14.9709427,9.38642671 14.9117762,9.32193689 14.7415374,9.14149931 C13.9086712,8.30985101 11.8570646,6.26124424 10.70702,5.11288126 C10.1601362,4.57101789 9.3579216,5.37323252 9.9004691,5.91888156 C11.100756,7.11458934 13.5013299,9.5060049 13.5013299,9.5060049 C13.5013299,9.5060049 11.1429519,11.8601427 9.96376292,13.0372117 C9.37818198,13.6229155 10.1806257,14.4253593 10.7690641,13.8438266 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4.1---details" transform="translate(-265.000000, -119.000000)">
+            <g id="Icons/Chevron/Right" transform="translate(256.000000, 115.000000)">
+                <g id="ic_chevron_right">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Shape" fill="#383B3D" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

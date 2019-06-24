@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Element/Change/Negative" transform="translate(0.000000, -5.000000)" fill="#E84A50" fill-rule="nonzero">
+            <g id="Change">
+                <path d="M9.14699149,5 L2.84377043,5 C2.37265383,5 1.99076192,5.38189191 1.99076192,5.85300851 C1.99076192,6.32412511 2.37265383,6.70601702 2.84377043,6.70601702 L7.0876157,6.70601702 L0.249856855,13.5438185 C-0.0832856182,13.876961 -0.0832856182,14.4170433 0.249856855,14.7501431 C0.582956677,15.083243 1.12303901,15.0832856 1.45618149,14.7501431 L8.29398298,7.91234165 L8.29398298,12.1561869 C8.29398298,12.6273035 8.67587489,13.0091954 9.14699149,13.0091954 C9.61810809,13.0091954 10,12.6273035 10,12.1561869 L10,5.85300851 C10,5.38875863 9.62271434,5 9.14699149,5 Z" id="Shape" transform="translate(5.000000, 9.999992) scale(1, -1) translate(-5.000000, -9.999992) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

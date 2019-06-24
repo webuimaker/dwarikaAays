@@ -1,0 +1,203 @@
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .row.y-companies-1 img {
+        margin-bottom: 10px;
+    }
+    .row.y-companies-1 h4 {
+        font-size: 11px;}
+}
+
+    @media (min-width: 576px) and (max-width: 1280px){
+       .notify a.btn.btn-help.dropdown-toggle {
+            width: 66px;
+        }
+    }
+
+    @media screen and (max-width: 991px){
+        .navbar-show{
+            display:none;
+        }
+        .navbar-nav-justify .navbar-nav {
+        display: -webkit-inline-box;
+    }
+    .navbar-nav-justify li.nav-item {
+        display: inherit;
+        text-align: -webkit-center;
+    }
+    }
+    @media (min-width: 768px) and (max-width: 991px){
+        .register-form .cards-count ul {
+            display: initial;
+            margin-left: 16px;
+            width: 100%;
+        }
+        .register-form .cards-count ul li.nav-item {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .col-md-6.align-self-center.lof-form-img {
+            align-self: flex-start !important;
+        }
+        section.login-form {
+            margin: 50px 0;
+        }
+        .y-companies-1 .col-md-3 {
+            max-width: 50%;
+            flex: 0 0 50%;
+        }
+        .recent-reports li {
+            width: 330px;
+        }
+        li.big-box.second-child {
+            margin-right: 0;
+        }
+        .analytics-col .content-box span.price {
+            font-size: 11px;
+            color: #9a9ea9a8;
+        }
+        .analytics-col .content-box h4 {
+            font-size: 21px;
+        }
+    }
+
+    @media (min-width: 480px) and (max-width: 767px){
+        .upload button.btn.btn-primary {
+            width: 100%;
+        }
+        div#upload .row {
+            margin: 0;
+        }
+        .col-md-6.upload {
+            margin-top: 15px;
+        }
+        section.login-form {
+            margin: 100px 0;
+        }
+        .recent-reports li {
+            list-style: none;
+            padding: 7px 25px;
+            border: 2px solid #eee;
+            box-shadow: 0 0 39px rgba(0, 0, 0, 0.08);
+            margin-right: 0px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .analytics-col .content-box {
+            margin-bottom: 20px;
+        }
+        .all-trips .col-md-4 .trip-1 {
+            margin-bottom: 20px;
+        }
+        .upload .btn-group {
+            width: 100%;
+        }
+        
+
+    }
+    @media screen and (max-width: 479px){
+        
+        .upload button.btn.btn-primary {
+            width: 100%;
+        }
+        .upload .btn-group {
+            width: 100%;
+        }
+        
+        div#upload .row {
+            margin: 0;
+        }
+        .col-md-6.upload {
+            margin-top: 15px;
+        }
+        .register-form .cards-count ul {
+            display: block;
+            width: 100%;
+        }
+        .register-form .cards-count ul li.nav-item {
+             width: 97%;
+             margin-bottom: 10px;
+        }
+        section.login-form {
+            margin: 100px 0;
+        }
+        .recent-reports li {
+            list-style: none;
+            padding: 7px 25px;
+            border: 2px solid #eee;
+            box-shadow: 0 0 39px rgba(0, 0, 0, 0.08);
+            margin-right: 0px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .analytics-col .content-box {
+            margin-bottom: 20px;
+        }
+        .all-trips .col-md-4 .trip-1 {
+            margin-bottom: 20px;
+        }
+    }
+    @media screen and (max-width: 394px){
+        .navbar-nav-justify .nav-item.active {
+            padding: 0 0px;}
+            .navbar-nav-justify .nav-item  {
+            padding: 0 0px;}
+            .navbar-nav-justify .nav-item:hover {
+            border-bottom: 3px solid #fff;}
+            .navbar-nav-justify .nav-item.active a {
+            padding: 12px 0px;}
+            .navbar-nav-justify .nav-item a {
+                padding: 12px 0px;}
+
+    }
+    @media screen and (max-width: 360px){
+        .col-lg-2.toggler-ico {
+            padding-left: 5px;
+            }
+            .notify{
+                padding: 5px 5px 5px 15px;
+            }
+        .notify a.btn.btn-help.dropdown-toggle {
+            padding: 0;
+            width: 45px;
+        }
+        .notify a.btn.btn-help{
+            padding: 10px 5px;
+        }
+        .logo{
+            padding: 5px 5px 5px 0px;
+        }
+        .logo .navbar-light .navbar-brand {
+            margin: 0;
+        }
+    }
+    @media screen and (max-width: 991px){
+    
+        .toggler-ico {
+            left: 80%;
+        }
+    .logo {
+        width: 40% !important;
+    }
+    .notify {
+        width: 30% !important;
+    }
+    .row.y-companies .col-md-4.col-sm-6.col-xs-6{
+        width: 50%;
+    }
+    .toggle-menu .mob-ile{
+        display: block;
+    }
+    .notify li:last-child {
+        margin-top: 10px;
+    }
+    div#upload .row {
+        margin: 0;
+    }
+    .y-companies-1 .col-md-3 .row {
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+    .col-md-3.col-sm-12.col-xs-12.notifications {
+        width: 50%;
+    }
+    }

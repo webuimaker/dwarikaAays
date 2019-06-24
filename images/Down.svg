@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Chevron/Down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14.425097,19.6888537 L7.39514402,12.6631916 C7.10068841,12.3562278 6.99857066,12.230366 6.99705764,12.0189337 C6.99554461,11.8075014 7.10015987,11.6934738 7.40116775,11.374433 L14.5348003,4.25123137 C15.5017729,3.29313556 16.9202088,4.71157149 15.9609034,5.67636092 L9.59404073,12.0189336 L15.8489904,18.2626374 C16.8843854,19.2982497 15.4655445,20.7170909 14.425097,19.6888537 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons/Chevron/Down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_chevron_down" transform="translate(12.000000, 12.000000) rotate(-90.000000) translate(-12.000000, -12.000000) ">
+            <rect id="Bg" stroke="#50E3C2" stroke-width="0.01" fill-opacity="0.01" fill="#030303" opacity="0.00999999978" x="0" y="0" width="24" height="24" rx="3"></rect>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <g id="Color/Gray-03" mask="url(#mask-2)" fill="#C6C6C6">
+                <rect id="Rectangle-2" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

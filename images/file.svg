@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="21px" viewBox="0 0 17 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dataroom-document" transform="translate(-46.000000, -20.000000)" fill="#9DB1F7" fill-rule="nonzero" stroke="#9DB1F7" stroke-width="0.5">
+            <g id="Group">
+                <path d="M57,29 C55.34,29 54,27.66 54,26 L54,22 L50,22 C48.9,22 48,22.9 48,24 L48,37 C48,38.1 48.9,39 50,39 L59,39 C60.1,39 61,38.1 61,37 L61,29 L57,29 Z M55,26 C55,27.1 55.9,28 57,28 L60.59,28 L55,22.41 L55,26 Z M50,21 L55,21 L62,28 L62,37 C62,38.66 60.66,40 59,40 L50,40 C48.34,40 47,38.66 47,37 L47,24 C47,22.34 48.34,21 50,21 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

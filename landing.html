@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,  maximum-scale=1, user-scalable=0, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600&display=swap" rel="stylesheet">
+
+    <title>Aays</title>
+</head>
+
+<body class="fixed sidebar-collapse">
+    <!-- header start -->    
+	<header>
+        <div id="navbar">
+            <div class="toggler-ico">
+                <button id="dash-menu" class="navbar-toggler toggle sidebar-toggle nav-bars"   data-toggle="offcanvas" role="button">
+                    <div class="icon">
+                        <span class="line-1"></span>
+                        <span class="line-2"></span>
+                        <span class="line-3"></span>
+                    </div>
+                </button>
+            </div>
+			<div class="content-area">
+				<div class="container">
+			
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="row">
+
+                    <div class="col-lg-4   logo">
+                        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="col-lg-6   navbar-show" id="navbarText">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="btn btn-help" href="app-store.html"><span><img src="images/app-store.svg"></span> App
+                                    Store</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-help" href="data-sources.html"><span><img src="images/datasorce.svg"></span> Data
+                                    Sources</a>
+                            </li>
+                            <li class="nav-item">
+
+                                <a href="#" class="btn btn-help dropdown-toggle" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Help
+                                </a>
+                                <div class="dropdown-menu">
+                                    <i class="fas fa-sort-up"></i>
+                                    <a class="dropdown-item" href="#">Raise Service Request</a>
+                                    <a class="dropdown-item" href="#">View all Requests</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">View Tips</a>
+                                    <a class="dropdown-item" href="#">About aays</a>
+                                    <a class="dropdown-item" href="#">View Knowledgebase</a>
+                                </div>
+
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-2 notify">
+                        <ul>
+                            <li>
+                                <a href="#" id="notifications" class="btn btn-help">
+                                    <span><img src="images/mail.svg"><span class="count"></span></span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-help">
+                                    <span><img src="images/datasorce.svg"><span class="count"></span></span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="btn btn-help dropdown-toggle" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <img src="images/profile-pic-thumbnail.png" class="" alt="profile-pic-thumbnail">
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-thumb">
+                                    <i class="fas fa-sort-up"></i>
+                                    <a class="dropdown-item" href="#"><span><i class="fas fa-check"></i></span> Company
+                                        1</a>
+                                    <a class="dropdown-item" href="#"><span><i
+                                                class="fas fa-check text-white"></i></span> Company
+                                        2</a>
+                                    <a class="dropdown-item" href="#"><span><i
+                                                class="fas fa-check text-white"></i></span> Company
+                                        3</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#"><span><i
+                                                class="fas fa-check text-white"></i></span> More...</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#"><span><i class="fas fa-user"></i></span> Profile
+                                        Settings</a>
+                                    <a class="dropdown-item" href="#"><span><i class="fas fa-sign-out-alt"></i></span>
+                                        Logout</a>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+		
+		</div>
+		</div>
+
+    </header>
+    <!-- header end -->
+
+	<section id="container" >
+		<!-- **********************************************************************************************************************************************************
+      MAIN SIDEBAR MENU
+      *********************************************************************************************************************************************************** -->
+      <!--sidebar start-->
+      <aside  class="mainside">
+        <div class="nav-collapse sidebar-menu sidebar-area main">  
+		  <!-- sidebar menu start-->
+		  <div class="welcome">
+            <img src="images/profile-pic-thumbnail.png" alt="profile-pic-thumbnail">
+            <div class="wel-txt ml-2">
+                <span>Welcome</span><span>Anna B</span>
+            </div>
+        </div>
+        <ul>
+			<li class="current"><a href="#"><span><img src="images/icon-dashboard.svg" alt="Overview"></span> Overview</a></li>
+            <li><a href="data-room.html"><span> <img src="images/icon-dataroom.svg" alt="dataroom"></span> Data Room</a></li>
+            <div class="report-search input-group mt-3">
+                <input type="text" class="form-control" placeholder="Reports" aria-label="Reports" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-help" type="button" id="button-addon2"><img src="images/Search.svg" alt="Strategy"></button>
+                </div>
+            </div>
+            <li><a href="#"><span> <img src="images/department-leftmenu.svg" alt="Strategy"></span>  Strategy</a></li>
+            <li><a href="#" class="operations"><span> <img src="images/department-leftmenu.svg" alt="Strategy"></span>  Operations</a></li>
+            <div class="list-group panel">
+                <a href="#down1" class="btn btn-default btn-sm nest" data-toggle="collapse"
+                    data-parent="#toggle-menu"><i class="fas fa-sort-down"></i> Revenue</a>
+                <div class="collapse full" id="down1">
+                    <a href="#" class="list-group-item  ">Level 3.1</a>
+                    <a href="#" class="list-group-item  ">Level 3.2</a>
+                    <a href="#" class="list-group-item  ">Level 3.3</a>
+                    <a href="#" class="list-group-item  ">Level 3.4</a>
+                </div>
+                <a href="#down2" class="btn btn-default btn-sm nest" data-toggle="collapse"
+                    data-parent="#toggle-menu"><i class="fas fa-sort-down"></i> Geographics</a>
+                <div class="collapse full" id="down2">
+                    <a href="#" class="list-group-item  ">Level 3.1</a>
+                    <a href="#" class="list-group-item  ">Level 3.2</a>
+                    <a href="#" class="list-group-item  ">Level 3.3</a>
+                    <a href="#" class="list-group-item  ">Level 3.4</a>
+                </div>
+                <a href="#down3" class="btn btn-default btn-sm nest" data-toggle="collapse"
+                    data-parent="#toggle-menu"><i class="fas fa-sort-down"></i> Customer Analytics</a>
+                <div class="collapse full" id="down3">
+                    <a href="#" class="list-group-item  ">Level 3.1</a>
+                    <a href="#" class="list-group-item  ">Level 3.2</a>
+                    <a href="#" class="list-group-item  ">Level 3.3</a>
+                    <a href="#" class="list-group-item  ">Level 3.4</a>
+                </div>
+            </div>
+            <li><a href="#"><span> <img src="images/department-leftmenu.svg" alt="Strategy"></span>  Marketing</a></li>
+
+        </ul>
+			  
+			  
+             
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN CONTENT
+      *********************************************************************************************************************************************************** -->
+      <!--main content start-->
+      <section  class="content-area">
+          <section class="container site-min-height pt-5">
+			<div class="row mt-5 mb-2 justify-content-between">
+                <div class="col-md-4">
+                    <p>Hi <span class="user-name">Anna B</span>,
+                        <br><span class="greet">Welcome back!</span>
+					</p>
+                </div>
+                <div class="col-md-6 align-self-center" id="upload">
+                    <div class="row">
+                        <div class="col-md-6 report-search input-group">
+                            <input type="text" class="form-control" placeholder="" aria-label="Reports"
+                                aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-help" type="button" id="button-addon2">
+								<img  src="images/search.svg"alt="search"></button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 upload">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary dropdown-toggle upload" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    + Upload
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <i class="fas fa-sort-up"></i>
+
+                                    <a href="#" class="dropdown-item">Upload Files<input type="file" name="file" /></a>
+                                    <a href="#" class="dropdown-item">Upload Folder<input type="file"
+                                            name="folder" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+			
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                        <strong>Did you know?</strong> By the year 2020, it is predicted there will be 50ZB of stored
+                        data.
+                        To put this in perspective, that's equivalent to 50B one-TB Disk drives.... Click here to know
+                        how
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4  next">
+                    <a href="#">Next Tip ></a>
+                </div>
+            </div>
+			
+			
+			
+
+            <div class="content mt-3">
+				<div class="row y-companies">
+					<aside class="col-sm-12">
+						<div class="list-group filter-wrap landing">
+							<article class="list-group-item">
+								<header class="filter-header row">
+									 <div class="col-md-10 col-sm-9 col-xs-9">
+										<h3>Your Companies</h3>
+									</div>
+									<div class="col-md-2 col-sm-3 col-xs-3 text-right view">
+										<span class="view-type"><img src="images/icon-dashboard.svg">	</span>&nbsp;
+										<a href="#" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" class="pull-right collapse-arrow">
+											<img src="images/Down.svg" alt="down" class="downarrow">
+										</a>
+									</div>
+								
+									
+								</header>
+								<div class="filter-content collapse show" id="collapse1" style="">			
+									<div class="row y-companies-1 mt-3">
+										<div class="col-md-3">
+											<div class="row">
+												<div class="align-self-center mr-2">
+													<img class="img-fluid" src="images/company-a.png" alt="">
+												</div>
+												<div>
+													<h4>Company A</h4>
+													<p><span class="last-updated"><span>Last Updated</span><br> On <span
+																class="time">22:00</span>,
+															<span class="date">Mar 31, 2019</span></span>
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="row">
+												<div class="align-self-center mr-2">
+													<img class="img-fluid" src="images/company-b.png" alt="">
+												</div>
+												<div>
+													<h4>Company B</h4>
+													<p><span class="last-updated"><span>Last Updated</span><br> On <span
+																class="time">22:00</span>,
+															<span class="date">Mar 31, 2019</span></span>
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="row">
+												<div class="align-self-center mr-2">
+													<img class="img-fluid" src="images/company-a.png" alt="">
+												</div>
+												<div>
+													<h4>Company C</h4>
+													<p><span class="last-updated"><span>Last Updated</span><br> On <span
+																class="time">22:00</span>,
+															<span class="date">Mar 31, 2019</span></span>
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="row">
+												<div class="align-self-center mr-2">
+													<img class="img-fluid" src="images/company-b.png" alt="">
+												</div>
+												<div>
+													<h4>Company D</h4>
+													<p><span class="last-updated"><span>Last Updated</span><br> On <span
+																class="time">22:00</span>,
+															<span class="date">Mar 31, 2019</span></span>
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div> <!-- collapse -filter-content  .// -->
+							</article>
+							<article class="list-group-item">
+								<header class="filter-header row">
+									 <div class="col-md-10 col-sm-9 col-xs-9">
+										<h3>Recent Departments</h3>
+									</div>
+									<div class="col-md-2 col-sm-3 col-xs-3 text-right view">
+										<span class="view-type"><img src="images/icon-dashboard.svg">	</span>&nbsp;
+										<a href="#" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" class="pull-right collapse-arrow">
+											<img src="images/Down.svg" alt="down" class="downarrow">
+										</a>
+									</div>								
+									
+								</header>
+								<div class="filter-content collapse show" id="collapse2">
+									<div class="row y-companies-1 mt-3">
+                    <div class="col-md-3">
+                        <div class="row">
+                            <div class="align-self-center mr-2">
+                                <img class="img-fluid" src="images/department.svg"  alt="">
+                            </div>
+                            <div>
+                                <h4>Strategy</h4>
+                                <p><span class="last-updated"><span>Last Updated</span><br> On <span
+                                            class="time">22:00</span>,
+                                        <span class="date">Mar 31, 2019</span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="row">
+                            <div class="align-self-center mr-2">
+                                <img class="img-fluid" src="images/department.svg" alt="">
+                            </div>
+                            <div>
+                                <h4>Operations</h4>
+                                <p><span class="last-updated"><span>Last Updated</span><br> On <span
+                                            class="time">22:00</span>,
+                                        <span class="date">Mar 31, 2019</span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="row">
+                            <div class="align-self-center mr-2">
+                                <img class="img-fluid" src="images/department.svg" alt="">
+                            </div>
+                            <div>
+                                <h4>Marketing</h4>
+                                <p><span class="last-updated"><span>Last Updated</span><br> On <span
+                                            class="time">22:00</span>,
+                                        <span class="date">Mar 31, 2019</span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="row">
+                            <div class="align-self-center mr-2">
+                                <img class="img-fluid" src="images/department.svg" alt="">
+                            </div>
+                            <div>
+                                <h4>Sales</h4>
+                                <p><span class="last-updated"><span>Last Updated</span><br> On <span
+                                            class="time">22:00</span>,
+                                        <span class="date">Mar 31, 2019</span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				
+				<div class="row y-companies-1 mt-4">
+                    <div class="col-md-3">
+                        <div class="row">
+                            <div class="align-self-center mr-2">
+                                <img class="img-fluid" src="images/department.svg" alt="">
+                            </div>
+                            <div>
+                                <h4>HR</h4>
+                                <p><span class="last-updated"><span>Last Updated</span><br> On <span
+                                            class="time">22:00</span>,
+                                        <span class="date">Mar 31, 2019</span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="row">
+                            <div class="align-self-center mr-2">
+                                <img class="img-fluid" src="images/department.svg" alt="">
+                            </div>
+                            <div>
+                                <h4>Supply Chain</h4>
+                                <p><span class="last-updated"><span>Last Updated</span><br> On <span
+                                            class="time">22:00</span>,
+                                        <span class="date">Mar 31, 2019</span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="row">
+                            <div class="align-self-center mr-2">
+                                <img class="img-fluid" src="images/department.svg" alt="">
+                            </div>
+                            <div>
+                                <h4>Finance</h4>
+                                <p><span class="last-updated"><span>Last Updated</span><br> On <span
+                                            class="time">22:00</span>,
+                                        <span class="date">Mar 31, 2019</span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="row">
+                            <div class="align-self-center mr-2">
+                                <img class="img-fluid" src="images/department.svg" alt="">
+                            </div>
+                            <div>
+                                <h4>Customers</h4>
+                                <p><span class="last-updated"><span>Last Updated</span><br> On <span
+                                            class="time">22:00</span>,
+                                        <span class="date">Mar 31, 2019</span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+								</div>
+							</article>
+							
+						</div> <!-- card.// -->
+					</aside> <!-- col.// -->
+				
+				</div>
+			
+                
+
+                
+            </div>
+
+			
+		</section><!--/wrapper -->
+      </section><!-- /MAIN CONTENT -->
+
+      <!--main content end-->
+	</section>	
+
+
+    <!-- Optional JavaScript -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+		
+    <script class="include" type="text/javascript" src="js/jquery.dcjqaccordion.2.7.js"></script>
+	
+    <script src="js/jquery.scrollTo.min.js"></script>
+	
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+	<script src="js/all-scripts.js"></script>
+	
+    <!--script for this page-->
+    
+  <script>
+      //custom select box
+
+      $(function(){
+          $('select.styled').customSelect();
+      });
+
+  </script>
+</body>
+
+</html>

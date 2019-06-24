@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons / Search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10,14 C12.209139,14 14,12.209139 14,10 C14,7.790861 12.209139,6 10,6 C7.790861,6 6,7.790861 6,10 C6,12.209139 7.790861,14 10,14 Z M15.896054,13.7747337 L20.5606602,18.4393398 C21.1464466,19.0251263 21.1464466,19.9748737 20.5606602,20.5606602 C19.9748737,21.1464466 19.0251263,21.1464466 18.4393398,20.5606602 L13.7747337,15.896054 C12.6855772,16.5947944 11.390109,17 10,17 C6.13400675,17 3,13.8659932 3,10 C3,6.13400675 6.13400675,3 10,3 C13.8659932,3 17,6.13400675 17,10 C17,11.390109 16.5947944,12.6855772 15.896054,13.7747337 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.102734375">
+        <g id="2-Landing-V2" transform="translate(-1098.000000, -131.000000)">
+            <g id="Group-2" transform="translate(154.000000, 114.000000)">
+                <g id="Component/Card/Metric-with-Icon" transform="translate(710.000000, 6.000000)">
+                    <g id="Icons-/-Search" transform="translate(231.000000, 8.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Glyph" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g id="Colors-/-Black" mask="url(#mask-2)" fill="#000000" fill-rule="evenodd">
+                            <rect id="Color" x="0" y="0" width="24" height="24"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

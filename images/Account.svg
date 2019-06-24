@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons / Account</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.5238193,13.2762012 C11.446174,13.2762012 9.76190966,11.4235105 9.76190966,9.13810062 C9.76190966,6.85269076 11.446174,5 13.5238193,5 C15.6014646,5 17.285729,6.85269076 17.285729,9.13810062 C17.285729,11.4235105 15.6014646,13.2762012 13.5238193,13.2762012 Z M21.0476386,18.3870514 C21.0476386,20.7941669 6,20.7941669 6,18.3870514 C6,15.9799359 10.278263,14.0285832 13.5238193,14.0285832 C16.7693756,14.0285832 21.0476386,15.9799359 21.0476386,18.3870514 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons-/-Account" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Icon" fill="#BFC5D2" xlink:href="#path-1"></use>
+    </g>
+</svg>
