@@ -32,8 +32,8 @@
                     </div>
                 </button>
             </div>
-			<div class="content-area">
-				<div class="container">
+			
+		<div class="container-fluid">
 			
             <nav class="navbar navbar-expand-lg navbar-light ">
                 <div class="row">
@@ -58,7 +58,6 @@
                                     Help
                                 </a>
                                 <div class="dropdown-menu">
-                                    <i class="fas fa-sort-up"></i>
                                     <a class="dropdown-item" href="#">Raise Service Request</a>
                                     <a class="dropdown-item" href="#">View all Requests</a>
                                     <div class="dropdown-divider"></div>
@@ -75,11 +74,11 @@
                         <ul>
                             <li>
                                 <a href="#" id="notifications" class="btn btn-help">
-                                    <span><img src="images/mail.svg"><span class="count"></span></span></a>
+                                    <span><img src="images/icon-notifications.svg"><span class="count"></span></span></a>  
                             </li>
                             <li>
                                 <a href="#" class="btn btn-help">
-                                    <span><img src="images/datasorce.svg"><span class="count"></span></span>
+                                    <span><img src="images/mail.svg"><span class="count"></span></span>
                                 </a>
                             </li>
 
@@ -89,7 +88,6 @@
                                     <img src="images/profile-pic-thumbnail.png" class="" alt="profile-pic-thumbnail">
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-thumb">
-                                    <i class="fas fa-sort-up"></i>
                                     <a class="dropdown-item" href="#"><span><i class="fas fa-check"></i></span> Company
                                         1</a>
                                     <a class="dropdown-item" href="#"><span><i
@@ -115,7 +113,7 @@
             </nav>
         </div>
 		
-		</div>
+		
 		</div>
 
     </header>
@@ -127,56 +125,73 @@
       *********************************************************************************************************************************************************** -->
       <!--sidebar start-->
       <aside  class="mainside">
-        <div class="nav-collapse sidebar-menu sidebar-area main">  
+        <div class="nav-collapse sidebar-menu sidebar-area main show">  
 		  <!-- sidebar menu start-->
 		  <div class="welcome">
             <img src="images/profile-pic-thumbnail.png" alt="profile-pic-thumbnail">
             <div class="wel-txt ml-2">
-                <span>Welcome</span><span>Anna B</span>
+                <span>Welcome</span><span class="username"> Anna B</span>
             </div>
         </div>
-        <ul>
-			<li class="current"><a href="#"><span><img src="images/icon-dashboard.svg" alt="Overview"></span> Overview</a></li>
-            <li><a href="data-room.html"><span> <img src="images/icon-dataroom.svg" alt="dataroom"></span> Data Room</a></li>
-            <div class="report-search input-group mt-3">
-                <input type="text" class="form-control" placeholder="Reports" aria-label="Reports" aria-describedby="button-addon2">
-                <div class="input-group-append">
-                    <button class="btn btn-help" type="button" id="button-addon2"><img src="images/Search.svg" alt="Strategy"></button>
-                </div>
-            </div>
-            <li><a href="#"><span> <img src="images/department-leftmenu.svg" alt="Strategy"></span>  Strategy</a></li>
-            <li><a href="#" class="operations"><span> <img src="images/department-leftmenu.svg" alt="Strategy"></span>  Operations</a></li>
-            <div class="list-group panel">
-                <a href="#down1" class="btn btn-default btn-sm nest" data-toggle="collapse"
-                    data-parent="#toggle-menu"><i class="fas fa-sort-down"></i> Revenue</a>
-                <div class="collapse full" id="down1">
-                    <a href="#" class="list-group-item  ">Level 3.1</a>
-                    <a href="#" class="list-group-item  ">Level 3.2</a>
-                    <a href="#" class="list-group-item  ">Level 3.3</a>
-                    <a href="#" class="list-group-item  ">Level 3.4</a>
-                </div>
-                <a href="#down2" class="btn btn-default btn-sm nest" data-toggle="collapse"
-                    data-parent="#toggle-menu"><i class="fas fa-sort-down"></i> Geographics</a>
-                <div class="collapse full" id="down2">
-                    <a href="#" class="list-group-item  ">Level 3.1</a>
-                    <a href="#" class="list-group-item  ">Level 3.2</a>
-                    <a href="#" class="list-group-item  ">Level 3.3</a>
-                    <a href="#" class="list-group-item  ">Level 3.4</a>
-                </div>
-                <a href="#down3" class="btn btn-default btn-sm nest" data-toggle="collapse"
-                    data-parent="#toggle-menu"><i class="fas fa-sort-down"></i> Customer Analytics</a>
-                <div class="collapse full" id="down3">
-                    <a href="#" class="list-group-item  ">Level 3.1</a>
-                    <a href="#" class="list-group-item  ">Level 3.2</a>
-                    <a href="#" class="list-group-item  ">Level 3.3</a>
-                    <a href="#" class="list-group-item  ">Level 3.4</a>
-                </div>
-            </div>
-            <li><a href="#"><span> <img src="images/department-leftmenu.svg" alt="Strategy"></span>  Marketing</a></li>
-
-        </ul>
-			  
-			  
+		
+		<div class="collapse d-md-flex aside-nav">
+            <ul class="nav flex-column flex-nowrap">
+                <li class="nav-item"><a class="nav-link active" href="index.html"><span class="icon"><img src="images/icon-dashboard.svg" alt="Overview"></span> Overview</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><span class="icon"><img src="images/icon-dataroom.svg" alt="dataroom"></span> Data Room</a></li>
+				<li class="search">
+					<div class="report-search input-group mt-3">
+						<input type="text" class="form-control" placeholder="Reports" aria-label="Reports" aria-describedby="button-addon2">
+						<div class="input-group-append">
+							<button class="btn btn-help" type="button" id="button-addon2"><img src="images/Search.svg" alt="Strategy"></button>
+						</div>
+					</div>
+				</li>
+				<li class="nav-item"><a class="nav-link href="#"><span class="icon"> <img src="images/department-leftmenu.svg" alt="Strategy"></span>  Strategy</a></li>
+				<li class="nav-item">
+                    <a class="nav-link collapsed" href="#submenu1" data-toggle="collapse" data-target="#submenu1">
+						<span class="icon"> <img src="images/department-leftmenu.svg" alt="Strategy"></span>  Operations
+					</a>
+                    <div class="collapse" id="submenu1" aria-expanded="false">
+                        <ul class="flex-column pl-2 nav">
+                            
+                            <li class="nav-item">
+                                <a class="nav-link collapsed py-1" href="#submenu1sub1" data-toggle="collapse" data-target="#submenu1sub1">Revenue Revenue Revenue Revenue Revenue</a>
+                                <div class="collapse" id="submenu1sub1" aria-expanded="false">
+                                    <ul class="flex-column nav pl-4">
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">
+                                                 Level 3.1
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">
+                                                 Level 3.2
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">
+                                                Level 3.3
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">
+                                                Level 3.4
+                                            </a>
+                                        </li>
+                                       
+                                    </ul>
+                                </div>
+                            </li>
+							<li class="nav-item"><a class="nav-link py-0" href="#">User Analsis </a></li>
+                        </ul>
+                    </div>
+                </li>								
+				<li class="nav-item"><a class="nav-link href="#"><span class="icon"> <img src="images/department-leftmenu.svg" alt="Strategy"></span>  Marketing</a></li>
+            </ul>
+        </div>
+		
+		
+		
              
               <!-- sidebar menu end-->
           </div>
@@ -188,8 +203,39 @@
       *********************************************************************************************************************************************************** -->
       <!--main content start-->
       <section  class="content-area">
-          <section class="container site-min-height pt-5">
-			
+          <section class="container-fluid site-min-height pt-5">
+			<div class="row mt-5 mb-2 justify-content-between">
+                <div class="col-md-4">
+                    <p>Hi <span class="user-name">Anna B</span>,
+                        <br><span class="greet">Welcome back!</span>
+					</p>
+                </div>
+                <div class="col-md-6 align-self-center" id="upload">
+                    <div class="row">
+                        <div class="col-md-6 report-search input-group">
+                            <input type="text" class="form-control" placeholder="" aria-label="Reports"
+                                aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-help" type="button" id="button-addon2">
+								<img  src="images/search.svg"alt="search"></button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 upload">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary dropdown-toggle upload" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    + Upload
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    
+                                    <a href="#" class="dropdown-item">Upload Files<input type="file" name="file" /></a>
+                                    <a href="#" class="dropdown-item">Upload Folder<input type="file"
+                                            name="folder" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 			
 
 			
@@ -202,9 +248,7 @@
 
     <!-- Optional JavaScript -->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
@@ -219,18 +263,19 @@
 	
     <script src="js/jquery.scrollTo.min.js"></script>
 	
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+    
 	<script src="js/all-scripts.js"></script>
 	
     <!--script for this page-->
     
   <script>
       //custom select box
-
+/*
       $(function(){
           $('select.styled').customSelect();
       });
-
+*/
   </script>
 </body>
 

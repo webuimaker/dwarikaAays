@@ -205,110 +205,45 @@
       <section  class="content-area">
           <section class="container-fluid site-min-height pt-5">
 			<div class="row mt-5 mb-2 justify-content-between">
-               <div class=" col-md-8 offset-2 app-head">
-                    <h2>App Store</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book.</p>
+                 <div class="col-md-4 page-title">					
+                    <h1>Service Requests</h1>
                 </div>
-            </div>
-			<div class="row mt-5 mb-2">
-            <div class="appstore-content col-md-8 offset-2">
-                <div class="content ">
+                <div class="col-md-6 align-self-center" id="upload">
                     <div class="row">
-                        <div class="main-name d-flex ">
-                            <img src="images/store-1.jpg" class="align-content-center" alt="">
-                            <h5 class="ml-3">Slack</h5>
-                        </div>
-                        <div class="main-status ">
-                            <h5>Connected</h5>
-                        </div>
-                        <div class="main-toggle">
-                            <div class="col-sm-6 ellipsis"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false"><img src="images/options.svg" alt="option"></a>
-
-                                <ul class="dropdown-menu">
-                                    <li><a href="#" class="dropdown-item">Refresh Now</a></li>
-                                    <li><a href="#" class="dropdown-item">Pause</a></li>
-                                    <li><a href="#" class="dropdown-item">Remove</a></li>
-                                </ul>
-
+                        <div class="col-md-6 report-search input-group">
+                            <input type="text" class="form-control" placeholder="" aria-label="Reports"
+                                aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-help" type="button" id="button-addon2">
+								<img  src="images/search.svg"alt="search"></button>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="content">
-                    <div class="row">
-                        <div class="main-name d-flex ">
-                            <img src="images/store-2.jpg" class="align-content-center" alt="">
-                            <h5 class="ml-3">Asana</h5>
-                        </div>
-                        <div class="main-status">
-                            <h5>Connected</h5>
-                        </div>
-                        <div class="main-toggle">
-                            <div class="col-sm-6 ellipsis"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false"><img src="images/options.svg" alt="option"></a>
-
-                                <ul class="dropdown-menu">
-                                    <li><a href="#" class="dropdown-item">Refresh Now</a></li>
-                                    <li><a href="#" class="dropdown-item">Pause</a></li>
-                                    <li><a href="#" class="dropdown-item">Remove</a></li>
-                                </ul>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="content">
-                    <div class="row">
-                        <div class="main-name d-flex ">
-                            <img src="images/store-3.jpg" class="align-content-center" alt="">
-                            <h5 class="ml-3">Dropbox</h5>
-                        </div>
-                        <div class="main-status">
-                            <h5>Connected</h5>
-                        </div>
-                        <div class="main-toggle">
-                            <div class="col-sm-6 ellipsis"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false"><img src="images/options.svg" alt="option"></a>
-
-                                <ul class="dropdown-menu">
-                                    <li><a href="#" class="dropdown-item">Refresh Now</a></li>
-                                    <li><a href="#" class="dropdown-item">Pause</a></li>
-                                    <li><a href="#" class="dropdown-item">Remove</a></li>
-                                </ul>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="content">
-                    <div class="row">
-                        <div class="main-name d-flex ">
-                            <img src="images/store-1.jpg" class="align-content-center" alt="">
-                            <h5 class="ml-3">Slack</h5>
-                        </div>
-                        <div class="main-status">
-                            <h5>Connected</h5>
-                        </div>
-                        <div class="main-toggle">
-                            <div class="col-sm-6 ellipsis"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false"><img src="images/options.svg" alt="option"></a>
-
-                                <ul class="dropdown-menu">
-                                    <li><a href="#" class="dropdown-item">Refresh Now</a></li>
-                                    <li><a href="#" class="dropdown-item">Pause</a></li>
-                                    <li><a href="#" class="dropdown-item">Remove</a></li>
-                                </ul>
-
-                            </div>
+                        <div class="col-md-6 upload">
+                           <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target=".bd-example-modal-xl">New Request</button>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
+			<div class="empty-error">
+                <div class="row ">
+                    <div class="col-md-12 my-auto text-center">
+                        <img src="images/empty-datarooms.svg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <p><strong>Oops,</strong><br>
+                            No requests been added, you can raise a request using New Request option</p>
+                    </div>
+					
+					
+			
+    
+					
+					
+					
+                </div>
 
+            </div>
 			
 
 			
@@ -317,6 +252,99 @@
 
       <!--main content end-->
 	</section>	
+	
+	
+	<div class="modal fade bd-example-modal-xl service-request-modal" tabindex="-1" role="dialog"
+                                aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+
+                                    <div class="modal-content">
+                                        <div class="modal-header border-0">
+
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true"><img src="images/close-big.svg" alt="close"></span>
+                                            </button>
+                                        </div>
+
+                                        <div class="modal-body pb-5 pl-5 pr-5 pt-0">
+
+                                            <h3>Service Request</h3>
+                                            <p>Upload documents to generate reports, You can upload - XLS, PDF formats</p>
+                                            <form class="mt-5">
+                                                <div class="form-row">
+                                                    <div class="col-4">
+                                                        <div class="form-group">
+                                                            <label for="exampleFormControlSelect1">DEPARTMENT</label>
+															 <div class="select">
+      											
+															
+                                                            <select class="form-control" id="exampleFormControlSelect1">
+                                                                <option>Choose</option>
+                                                                <option>2</option>
+                                                                <option>3</option>
+                                                                <option>4</option>
+                                                                <option>5</option>
+                                                            </select>
+															
+														  <div class="select__arrow"></div>
+														  </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div class="form-group">
+                                                            <label for="exampleFormControlSelect1">SUB
+                                                                DEPARTMENT</label>
+																 <div class="select">
+                                                            <select class="form-control" id="exampleFormControlSelect1">
+                                                                <option>Choose</option>
+                                                                <option>2</option>
+                                                                <option>3</option>
+                                                                <option>4</option>
+                                                                <option>5</option>
+                                                            </select> <div class="select__arrow"></div>
+														  </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-row">
+                                                    <div class="col-7">
+                                                        <div class="form-group">
+                                                            <label for="exampleFormControlSelect1">SUBJECT</label>
+															<div class="select">
+                                                            <select class="form-control my-select" id="exampleFormControlSelect1">
+                                                                <option>Choose</option>
+                                                                <option>2</option>
+                                                                <option>3</option>
+                                                                <option>4</option>
+                                                                <option>5</option>
+                                                            </select> 
+															<div class="select__arrow"></div>
+														  </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <button type="button" class="btn btn-primary btn-block w-100"><i
+                                                                class="fas fa-paperclip"></i> Attachment</button>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label for="exampleFormControlTextarea1">DESCRIPTION</label>
+                                                    <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                        rows="6" placeholder="Start Typing"></textarea>
+                                                </div>
+
+
+                                            </form>
+                                            <div class="modal-footer border-0">
+                                                <button type="button" class="btn btn-primary">Raise Request</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
 
 
     <!-- Optional JavaScript -->
@@ -350,6 +378,8 @@
       });
 */
   </script>
+  
+  
 </body>
 
 </html>

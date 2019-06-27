@@ -205,110 +205,245 @@
       <section  class="content-area">
           <section class="container-fluid site-min-height pt-5">
 			<div class="row mt-5 mb-2 justify-content-between">
-               <div class=" col-md-8 offset-2 app-head">
-                    <h2>App Store</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book.</p>
+                <div class="col-md-4 page-title">
+					<div class="bc-icons">
+
+						 <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a class="black-text" href="#">Data Room</a><i class="fa fa-angle-right mx-2" aria-hidden="true"></i></li>	
+                                    <li class="breadcrumb-item active">Marketing</li>
+                                </ol>
+
+					</div>
+                    <h1>Data Room</h1>
                 </div>
-            </div>
-			<div class="row mt-5 mb-2">
-            <div class="appstore-content col-md-8 offset-2">
-                <div class="content ">
+                <div class="col-md-6 align-self-center" id="upload">
                     <div class="row">
-                        <div class="main-name d-flex ">
-                            <img src="images/store-1.jpg" class="align-content-center" alt="">
-                            <h5 class="ml-3">Slack</h5>
-                        </div>
-                        <div class="main-status ">
-                            <h5>Connected</h5>
-                        </div>
-                        <div class="main-toggle">
-                            <div class="col-sm-6 ellipsis"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false"><img src="images/options.svg" alt="option"></a>
-
-                                <ul class="dropdown-menu">
-                                    <li><a href="#" class="dropdown-item">Refresh Now</a></li>
-                                    <li><a href="#" class="dropdown-item">Pause</a></li>
-                                    <li><a href="#" class="dropdown-item">Remove</a></li>
-                                </ul>
-
+                        <div class="col-md-6 report-search input-group">
+                            <input type="text" class="form-control" placeholder="" aria-label="Reports"
+                                aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-help" type="button" id="button-addon2">
+								<img  src="images/search.svg"alt="search"></button>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="content">
-                    <div class="row">
-                        <div class="main-name d-flex ">
-                            <img src="images/store-2.jpg" class="align-content-center" alt="">
-                            <h5 class="ml-3">Asana</h5>
-                        </div>
-                        <div class="main-status">
-                            <h5>Connected</h5>
-                        </div>
-                        <div class="main-toggle">
-                            <div class="col-sm-6 ellipsis"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false"><img src="images/options.svg" alt="option"></a>
-
-                                <ul class="dropdown-menu">
-                                    <li><a href="#" class="dropdown-item">Refresh Now</a></li>
-                                    <li><a href="#" class="dropdown-item">Pause</a></li>
-                                    <li><a href="#" class="dropdown-item">Remove</a></li>
-                                </ul>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="content">
-                    <div class="row">
-                        <div class="main-name d-flex ">
-                            <img src="images/store-3.jpg" class="align-content-center" alt="">
-                            <h5 class="ml-3">Dropbox</h5>
-                        </div>
-                        <div class="main-status">
-                            <h5>Connected</h5>
-                        </div>
-                        <div class="main-toggle">
-                            <div class="col-sm-6 ellipsis"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false"><img src="images/options.svg" alt="option"></a>
-
-                                <ul class="dropdown-menu">
-                                    <li><a href="#" class="dropdown-item">Refresh Now</a></li>
-                                    <li><a href="#" class="dropdown-item">Pause</a></li>
-                                    <li><a href="#" class="dropdown-item">Remove</a></li>
-                                </ul>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="content">
-                    <div class="row">
-                        <div class="main-name d-flex ">
-                            <img src="images/store-1.jpg" class="align-content-center" alt="">
-                            <h5 class="ml-3">Slack</h5>
-                        </div>
-                        <div class="main-status">
-                            <h5>Connected</h5>
-                        </div>
-                        <div class="main-toggle">
-                            <div class="col-sm-6 ellipsis"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false"><img src="images/options.svg" alt="option"></a>
-
-                                <ul class="dropdown-menu">
-                                    <li><a href="#" class="dropdown-item">Refresh Now</a></li>
-                                    <li><a href="#" class="dropdown-item">Pause</a></li>
-                                    <li><a href="#" class="dropdown-item">Remove</a></li>
-                                </ul>
-
+                        <div class="col-md-6 upload">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary dropdown-toggle upload" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    + Upload
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    
+                                    <a href="#" class="dropdown-item">Upload Files<input type="file" name="file" /></a>
+                                    <a href="#" class="dropdown-item">Upload Folder<input type="file"
+                                            name="folder" /></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="data1 mb-5">
+                <table class="table table-responsive-md">
+                    <thead>
+                        <tr>
+                            <th scope="col">NAME <span><img src="images/label-filter.svg" ></span></th>
+                            <th scope="col">UPLOADED BY <span><img src="images/label-filter.svg" ></span></th>
+                            <th scope="col">STATUS <span><img src="images/label-filter.svg" ></span></th>
+                            <th scope="col">UPLOADED ON <span><img src="images/label-filter.svg" ></span></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       
+                        <tr>
+                            <td><span class="mr-2"> <img src="images/file.svg" alt="folder">&nbsp;</span> FB Ad budget</td>
+                            <td>Anna B</td>
+                            <td>Approved</td>
+                            <td>22:00, Mar 31, 2019</td>
+                            <td class="ellipsis">
+								<div class="ellipsis">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
 
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">View Details</a></li>
+                                    <li><a href="#" class="dropdown-item">Follow up</a></li>
+                                    <li><a href="#" class="dropdown-item">Edit</a></li>
+                                    <li><a href="#" class="dropdown-item">Delete</a></li>
+                                </ul>
+								</div>
+                            </td>
+                        </tr>
+                       
+                        <tr>
+                            <td><span class="mr-2"> <img src="images/file.svg" alt="folder">&nbsp;</span> Supply Chain</td>
+                            <td>Anna B</td>
+                            <td>Approved</td>
+                            <td>22:00, Mar 31, 2019</td>
+                            <td class="ellipsis">
+								<div class="ellipsis">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">View Details</a></li>
+                                    <li><a href="#" class="dropdown-item">Follow up</a></li>
+                                    <li><a href="#" class="dropdown-item">Edit</a></li>
+                                    <li><a href="#" class="dropdown-item">Delete</a></li>
+                                </ul>
+								</div>
+                            </td>
+                        </tr>
+                       
+                        <tr>
+                            <td><span class="mr-2"> <img src="images/file.svg" alt="folder">&nbsp;</span> New Prospects</td>
+                            <td>Anna B</td>
+                            <td>Approved</td>
+                            <td>22:00, Mar 31, 2019</td>
+                            <td class="ellipsis">
+								<div class="ellipsis">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">View Details</a></li>
+                                    <li><a href="#" class="dropdown-item">Follow up</a></li>
+                                    <li><a href="#" class="dropdown-item">Edit</a></li>
+                                    <li><a href="#" class="dropdown-item">Delete</a></li>
+                                </ul>
+								</div>
+                            </td>
+                        </tr>
+                       
+                        <tr>
+                            <td><span class="mr-2"> <img src="images/file.svg" alt="folder">&nbsp;</span>Google Ad Budget</td>
+                            <td>Anna B</td>
+                            <td>Approved</td>
+                            <td>22:00, Mar 31, 2019</td>
+                            <td class="ellipsis">
+								<div class="ellipsis">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">View Details</a></li>
+                                    <li><a href="#" class="dropdown-item">Follow up</a></li>
+                                    <li><a href="#" class="dropdown-item">Edit</a></li>
+                                    <li><a href="#" class="dropdown-item">Delete</a></li>
+                                </ul>
+								</div>
+                            </td>
+                        </tr>
+                       
+                        <tr>
+                            <td><span class="mr-2"> <img src="images/file.svg" alt="folder">&nbsp;</span> New Prospects</td>
+                            <td>Anna B</td>
+                            <td>Approved</td>
+                            <td>22:00, Mar 31, 2019</td>
+                            <td class="ellipsis">
+								<div class="ellipsis">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">View Details</a></li>
+                                    <li><a href="#" class="dropdown-item">Follow up</a></li>
+                                    <li><a href="#" class="dropdown-item">Edit</a></li>
+                                    <li><a href="#" class="dropdown-item">Delete</a></li>
+                                </ul>
+								</div>
+                            </td>
+                        </tr>
+                       
+                        <tr>
+                            <td><span class="mr-2"> <img src="images/file.svg" alt="folder">&nbsp;</span> FB Ad budget</td>
+                            <td>Anna B</td>
+                            <td>Approved</td>
+                            <td>22:00, Mar 31, 2019</td>
+                            <td class="ellipsis">
+								<div class="ellipsis">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">View Details</a></li>
+                                    <li><a href="#" class="dropdown-item">Follow up</a></li>
+                                    <li><a href="#" class="dropdown-item">Edit</a></li>
+                                    <li><a href="#" class="dropdown-item">Delete</a></li>
+                                </ul>
+								</div>
+                            </td>
+                        </tr>
+                       
+                        <tr>
+                            <td><span class="mr-2"> <img src="images/file.svg" alt="folder">&nbsp;</span> FB Ad budget</td>
+                            <td>Anna B</td>
+                            <td>Approved</td>
+                            <td>22:00, Mar 31, 2019</td>
+                            <td class="ellipsis">
+								<div class="ellipsis">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">View Details</a></li>
+                                    <li><a href="#" class="dropdown-item">Follow up</a></li>
+                                    <li><a href="#" class="dropdown-item">Edit</a></li>
+                                    <li><a href="#" class="dropdown-item">Delete</a></li>
+                                </ul>
+								</div>
+                            </td>
+                        </tr>
+                       
+                        <tr>
+                            <td><span class="mr-2"> <img src="images/file.svg" alt="folder">&nbsp;</span> FB Ad budget</td>
+                            <td>Anna B</td>
+                            <td>Approved</td>
+                            <td>22:00, Mar 31, 2019</td>
+                            <td class="ellipsis">
+								<div class="ellipsis">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">View Details</a></li>
+                                    <li><a href="#" class="dropdown-item">Follow up</a></li>
+                                    <li><a href="#" class="dropdown-item">Edit</a></li>
+                                    <li><a href="#" class="dropdown-item">Delete</a></li>
+                                </ul>
+								</div>
+                            </td>
+                        </tr>
+                       
+                        <tr>
+                            <td><span class="mr-2"> <img src="images/file.svg" alt="folder">&nbsp;</span> FB Ad budget</td>
+                            <td>Anna B</td>
+                            <td>Approved</td>
+                            <td>22:00, Mar 31, 2019</td>
+                            <td class="ellipsis">
+								<div class="ellipsis">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">View Details</a></li>
+                                    <li><a href="#" class="dropdown-item">Follow up</a></li>
+                                    <li><a href="#" class="dropdown-item">Edit</a></li>
+                                    <li><a href="#" class="dropdown-item">Delete</a></li>
+                                </ul>
+								</div>
+                            </td>
+                        </tr>
+						
+						
+                    </tbody>
+                </table>
+            </div>
+				</div>
+			
+			</div>
 			
 
 			
