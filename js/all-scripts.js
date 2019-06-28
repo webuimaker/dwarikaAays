@@ -166,6 +166,33 @@ $(".sidebar-area").niceScroll();
 $(".sidebar-area").getNiceScroll().resize();
 });
 
+$('#myModal').on('shown.bs.modal', function () {
+ 
+    var progress = setInterval(function() {
+    var $bar = $('.bar');
+
+    if ($bar.width()==500) {
+      
+        // complete
+      
+        clearInterval(progress);
+        $('.progress').removeClass('active');
+        $('#myModal').modal('hide');
+        $bar.width(0);
+        
+    } else {
+      
+        // perform processing logic here
+      
+        $bar.width($bar.width()+50);
+    }
+    
+    $bar.text($bar.width()/5 + "%");
+	}, 800);
+  
+  
+})
+
 
 
 

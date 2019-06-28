@@ -81,6 +81,10 @@ form .form-group input {
 	font-size: 1.6rem;
     font-weight: 800;
 }
+.modal .page-title h1 {
+	font-size: 1rem;
+    font-weight: 800;
+}
 .breadcrumb {
 	margin:0px;
 	padding:0px;
@@ -122,8 +126,10 @@ header #navbar  .navbar {padding-left:0px; padding-right:0px;}
 .toggler-ico {
     left: 20px;
     position: absolute;
-    top: 8px;
+    top: 0px;
     z-index: 1;
+    margin: auto;
+    bottom: 0px;
 }
 button.navbar-toggler:focus {
     outline: none;
