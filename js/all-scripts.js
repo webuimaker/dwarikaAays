@@ -25,27 +25,45 @@ $('html').click(function () {
     $('.notifications').hide();
 })
 
+
+
+
+$('#notifications').click(function (e) {
+    //$('.notes').toggle();
+	$('.notifications').addClass("shownotes");
+});
+
 $('#notifications').click(function (e) {
     e.stopPropagation();
 });
 
-$('#notifications').click(function (e) {
-    $('.notifications').toggle();
+
+$(document).click(function(){
+    //$(".dropdown").hide();
+	
+	$('.notifications').removeClass("shownotes");
 });
+
 
 // <!-- // notes -->
 
-$('html').click(function () {
-    $('.notes').hide();
-})
+
+$('#my-notes').click(function (e) {
+    //$('.notes').toggle();
+	$('.notes').addClass("shownotes");
+});
 
 $('#my-notes').click(function (e) {
     e.stopPropagation();
 });
 
-$('#my-notes').click(function (e) {
-    $('.notes').toggle();
+
+$(document).click(function(){
+    //$(".dropdown").hide();
+	
+	$('.notes').removeClass("shownotes");
 });
+
 
 // <!-- add class -->
 
